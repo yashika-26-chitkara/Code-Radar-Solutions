@@ -7,7 +7,7 @@ int main() {
             if(i==2 && j==2){
                 printf("  ");
             }else{
-                printf("* ");
+                printf("*");
             }
         }
         printf("\n");
