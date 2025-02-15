@@ -4,11 +4,11 @@ int main(){
     scanf("%d",&N);
     if(N>=18){
         if(M==1){
-        printf("Eligible");
+            printf("Eligible");
     }
     }else{
         if(M==0){
-        printf("Not Eligible");
+            printf("Not Eligible");
     }
     }
 }
