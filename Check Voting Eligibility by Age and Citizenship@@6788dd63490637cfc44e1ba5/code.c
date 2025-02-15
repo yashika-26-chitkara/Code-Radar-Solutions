@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int N,M;
-    scanf("%d",&N);
+    scanf("%d %d",&N,&M);
     if(N>=18 && (M==1)){
         printf("Eligible");
     }else{
