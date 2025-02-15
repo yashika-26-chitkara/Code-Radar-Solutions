@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
-    int N;
-    scanf("%d",&N);
-    if(N>=18){
-        printf("1");
+    int N,M;
+    scanf("%d",&N,&M);
+    if(N>=18 && M==1){
+        printf("Eligible");
     }else{
-        printf("0");
+        printf("Not Eligible");
     }
 }
