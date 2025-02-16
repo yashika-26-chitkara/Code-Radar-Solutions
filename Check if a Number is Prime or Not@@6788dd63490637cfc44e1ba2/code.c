@@ -8,6 +8,7 @@ int main(){
         if(N==2){
             printf("Prime");
         }else{
-        printf("Not Prime");
+            printf("Not Prime");
     }
+}
 }
