@@ -21,7 +21,7 @@ int check_even_odd(int n){
     
 }
 
-int count_even_odd(int N;int arr[]){
+int count_even_odd(int N,int arr[]){
     int count_even=0;
     int count_odd=0;
     for(int i=0;i<N;i++){
