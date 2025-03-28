@@ -7,11 +7,10 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    if(checkPrime(N,arr[N])){
-        printf("%d",count);
+    countPrime(N,arr);
+    
     }
 
-}
 void checkPrime(int num){
     if(num==1){
         return 1;
