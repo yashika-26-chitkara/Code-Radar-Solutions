@@ -15,7 +15,7 @@ int main(){
     }
 
 int checkPrime(int num){
-    if(num==1){
+    if(num==1 || num==0){
         return 0;
     }
     for(int i=2;i*i<=num;i++){
