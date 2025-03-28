@@ -1,5 +1,5 @@
 #include <stdio.h>
-int targetIndex(int T);
+int targetIndex(int N,int arr[],int T);
 int main(){
     int N;
     scanf("%d",&N);
@@ -10,14 +10,14 @@ int main(){
     int T;
     scanf("%d",&T);
 
-    targetIndex(T);
+    targetIndex(N,arr,T);
 }
 
-int targetIndex(int T){
+int targetIndex(int N,int arr[],int T){
     for(int i=0;i<N;i++){
         if(arr[i]==T){
             return i;
         }
     }
-    return 0;
+    return -1;
 }
