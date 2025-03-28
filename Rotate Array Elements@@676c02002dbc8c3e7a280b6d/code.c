@@ -23,7 +23,7 @@ void rotation(int N,int arr[],int K){
         temp[(i+K)%N]=arr[i];
      }
      for(int i=0;i<N;i++){
-         arr[i]=temp[N];
+         arr[i]=temp[i];
      } 
      for(int i=0;i<N;i++){
         printf("%d",arr[i]);
