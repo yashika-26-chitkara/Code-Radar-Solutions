@@ -28,5 +28,6 @@ void rotation(int N,int arr[],int K){
      for(int i=0;i<N;i++){
         printf("%d",arr[i]);
     }
+    printf("\n");
    
 }
