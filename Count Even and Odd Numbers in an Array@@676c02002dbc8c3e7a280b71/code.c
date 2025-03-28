@@ -15,7 +15,7 @@ int main(){
     int even_count=count_even_odd(N,arr);
     int odd_count=N-even_count;
 
-    printf("%d  %d",even_count,odd_count);
+    printf("%d %d",even_count,odd_count);
 }
 int check_even_odd(int n){
     if(n%2==0){
