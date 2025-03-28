@@ -1,5 +1,5 @@
 #include <stdio.h>
-void checkPrime(int num);
+int checkPrime(int num);
 int countPrime(int N,int arr[]);
 int main(){
     int N;
@@ -12,7 +12,7 @@ int main(){
     
     }
 
-void checkPrime(int num){
+int checkPrime(int num){
     if(num==1){
         return 1;
     }
