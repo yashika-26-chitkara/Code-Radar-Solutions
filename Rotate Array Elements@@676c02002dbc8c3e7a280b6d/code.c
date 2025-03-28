@@ -5,14 +5,19 @@ int main(){
     printf("enter the number of array elements:");
     scanf("%d",&N);
     int arr[N];
-    for(int i=0;i<N;i++){
-        scanf("%d",&arr[i]);
-    }
+    int size;
+    scanf("%d",&size);
+    int K;
+    scanf("%d",&K);
+    
     rotation(N,size,K);
 }
 
 void rotation(int N,int size,int K){
     temp[size];
+    for(int i=0;i<N;i++){
+        scanf("%d",&arr[i]);
+    }
     
     for(int i=0;i<N;i++){
         temp[(i%size)+K]=arr[i];
