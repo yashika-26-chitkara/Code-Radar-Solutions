@@ -12,7 +12,7 @@ int main(){
     scanf("%d",&K);
    
     rotation(N,arr,K);
-    return 0;
+    
 }
 
 void rotation(int N,int arr[],int K){
