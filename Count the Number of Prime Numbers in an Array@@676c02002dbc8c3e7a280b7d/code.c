@@ -31,6 +31,6 @@ int countPrime(int N,int arr[]){
         if(checkPrime(arr[i])){
             count++;
         }
-        return count;
     }
+    return count;
 }
