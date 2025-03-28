@@ -1,5 +1,5 @@
 #include <stdio.h>
-void rotation(int N,int size,int K);
+int rotation(int N,int size,int K);
 int main(){
     int N;
     printf("enter the number of array elements:");
@@ -17,7 +17,7 @@ int main(){
     rotation(N,size,K);
 }
 
-void rotation(int N,int size,int K){
+int rotation(int N,int size,int K){
     
     int temp[size];
     int arr[N];
