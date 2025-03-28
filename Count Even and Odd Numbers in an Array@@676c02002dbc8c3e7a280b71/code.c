@@ -8,9 +8,6 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-   
-    int result =count_even_odd(N,arr);
-    printf("%d",result);
 
     int even_count=count_even_odd(N,arr);
     int odd_count=N-even_count;
