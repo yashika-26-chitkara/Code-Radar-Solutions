@@ -12,15 +12,24 @@ int main(){
     }
 
 }
-void checkPrime(int N,int arr[]){
-    int count=0;
-    if(arr[i]==1){
+void checkPrime(int num){
+    if(num==1){
         return 1;
     }
-    for(int i=0;i<arr[N];i++){
-        if(arr[i]%i!=0 || arr[i]==2){
-        count++;
+    for(int i=0;i*i<N;i++){
+        if(N%i==0){
+        printf("Not Prime");
         }
     }
     return 1;
+}
+
+int countPrime(int N,int arr[]){
+    int count =0;
+    for(int i=0;i<N;i++){
+        if(checkPrime(arr[i])){
+            count++;
+        }
+        return count;
+    }
 }
