@@ -1,5 +1,5 @@
 #include <stdio.h>
-void check_even_odd(int n);
+int check_even_odd(int n);
 int count_even_odd(int N,int arr[]);
 int main(){
     int N;
@@ -11,7 +11,7 @@ int main(){
     int result =count_even_odd(N,arr);
     printf("%d",result);
 }
-void check_even_odd(int n){
+int check_even_odd(int n){
     if(n%2==0){
         return 1;
     }else{
