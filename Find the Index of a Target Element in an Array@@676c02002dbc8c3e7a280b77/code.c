@@ -10,7 +10,8 @@ int main(){
     int T;
     scanf("%d",&T);
 
-    targetIndex(N,arr,T);
+    int result=targetIndex(N,arr,T);
+    printf("%d",result);
 }
 
 int targetIndex(int N,int arr[],int T){
