@@ -17,11 +17,10 @@ int main(){
 
 void rotation(int N,int size,int K){
     
-    int temp[size];
-    int arr[N];
+    int temp[N];
    
     for(int i=0;i<N;i++){
-        temp[(i%size)+K]=arr[i];
+        temp[(i+K)%N]=arr[i];
      }
      for(int i=0;i<N;i++){
          arr[i]=temp[size];
