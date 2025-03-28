@@ -12,7 +12,7 @@ int main(){
     int result =count_even_odd(N,arr);
     printf("%d",result);
 
-    int even_count=count_even(N,arr);
+    int even_count=count_even_odd(N,arr);
     int odd_count=N-even_count;
 
     printf("%d  %d",even_count,odd_count);
