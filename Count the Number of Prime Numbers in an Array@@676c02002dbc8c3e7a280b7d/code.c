@@ -16,7 +16,7 @@ int checkPrime(int num){
     if(num==1){
         return 1;
     }
-    for(int i=0;i*i<N;i++){
+    for(int i=0;i*i<=num;i++){
         if(N%i==0){
         printf("Not Prime");
         }
