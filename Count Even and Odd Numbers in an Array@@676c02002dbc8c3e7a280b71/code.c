@@ -14,9 +14,9 @@ int main(){
 int check_even_odd(int n){
     if(n%2==0){
         return 1;
-    }else{
-        return 0;
     }
+    return 0;
+    
 }
 
 int count_even_odd(int N;int arr[]){
