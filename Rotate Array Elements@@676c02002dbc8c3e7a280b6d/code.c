@@ -15,7 +15,7 @@ int main(){
     return 0;
 }
 
-void rotation(int N,int size,int K){
+void rotation(int N,int arr[],int K){
     
     int temp[N];
    
