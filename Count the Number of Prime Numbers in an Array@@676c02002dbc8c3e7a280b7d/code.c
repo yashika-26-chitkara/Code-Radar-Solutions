@@ -1,5 +1,6 @@
 #include <stdio.h>
-void checkPrime(int N,int arr[]);
+void checkPrime(int num);
+int countPrime(int N,int arr[]);
 int main(){
     int N;
     scanf("%d",&N);
