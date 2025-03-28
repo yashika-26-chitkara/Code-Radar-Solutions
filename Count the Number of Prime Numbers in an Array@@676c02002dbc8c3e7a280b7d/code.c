@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int checkPrime(int num);
 int countPrime(int N,int arr[]);
 int main(){
@@ -18,7 +19,7 @@ int checkPrime(int num){
     }
     for(int i=0;i*i<=num;i++){
         if(num%i==0){
-        printf("Not Prime");
+        return 0;
         }
     }
     return 1;
