@@ -9,7 +9,8 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    countPrime(N,arr);
+    int result=countPrime(N,arr);
+    printf("%d",result);
     
     }
 
