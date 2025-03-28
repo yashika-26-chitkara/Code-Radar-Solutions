@@ -11,7 +11,7 @@ int main(){
     int K;
     scanf("%d",&K);
    
-    rotation(N,size,K);
+    rotation(N,arr,K);
     return 0;
 }
 
