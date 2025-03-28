@@ -3,9 +3,12 @@ void rotation(int N,int arr[],int K);
 int main(){
     int N;
     scanf("%d",&N);
+    int arr[N];
     for(int i =0;i<N;i++){
         scanf("%d",&arr[i]);
     }
+    int K;
+    scanf("%d",&K);
     rotation(N,arr[],K);
 
 }
