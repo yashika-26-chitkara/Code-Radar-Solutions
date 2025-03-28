@@ -2,7 +2,6 @@
 void rotation(int N,int arr[],int K);
 int main(){
     int N;
-    printf("enter the number of array elements:");
     scanf("%d",&N);
     int arr[N];
      for(int i=0;i<N;i++){
