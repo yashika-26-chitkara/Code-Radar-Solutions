@@ -8,6 +8,8 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
+    int n;
+    scanf("%d",&n);
     int result =count_even_odd(N,arr);
     printf("%d",result);
 }
