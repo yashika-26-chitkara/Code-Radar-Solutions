@@ -3,11 +3,11 @@ int main(){
     int N;
     scanf("%d",&N);
     int freq[N+1];
-    for(int i=0;i<N;i++){
+    for(int i=0;i<=N;i++){
         freq[i]=0;
     }
     int arr[N];
-    for(int i=0;i<=N;i++){
+    for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
         if(arr[i]<=N){
         freq[arr[i]]++;
