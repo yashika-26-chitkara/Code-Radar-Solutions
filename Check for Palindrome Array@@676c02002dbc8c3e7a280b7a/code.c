@@ -9,7 +9,7 @@ int main(){
     int original=arr[N];
     int reversedArr[N];
     for(int i=N;i>1;i--){
-        reversedArr[i];
+        reversedArr[i]=arr[N-i-1];
     }
     if(original==reversedArr){
         printf("Yes");
