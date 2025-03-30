@@ -10,10 +10,8 @@ int main(){
     for(int i=0;i<N;i++){
         reversedArr[i]=arr[N-i-1];
     }for(int i=0;i<N;i++){
-        if(arr[i]==reversedArr[i]){
-        printf("YES");
-    }else{
-        printf("NO");
-    }
-}
+        if(arr[i]!=reversedArr[i]){
+         printf("NO");
+   }
+   printf("YES");
 }
