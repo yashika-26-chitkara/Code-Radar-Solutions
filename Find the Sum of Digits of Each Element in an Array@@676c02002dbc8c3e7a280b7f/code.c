@@ -14,6 +14,9 @@ int main(){
     }
 }
 int sumOfDigits(int num){
+    if(num<0){
+        num-=num;
+    }
     int sum=0;
     while(num!=0){
         sum+=num%10;
