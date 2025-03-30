@@ -9,10 +9,17 @@ int main(){
     int reversedArr[N];
     for(int i=0;i<N;i++){
         reversedArr[i]=arr[N-i-1];
-    }for(int i=0;i<N;i++){
+    }
+    int ispalindrome=1;
+    for(int i=0;i<N;i++){
         if(arr[i]!=reversedArr[i]){
-         printf("NO");
+         isPalindrome=0;
+         break;
    }
-   printf("YES");
+}
+if(isPalindrome){
+    printf("YES");
+}else{
+    printf("NO");
 }
 }
