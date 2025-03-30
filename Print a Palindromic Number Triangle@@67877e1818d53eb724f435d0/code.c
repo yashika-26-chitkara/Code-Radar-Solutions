@@ -15,5 +15,8 @@ int main(){
     case 4:(N==4);
            printf("   1\n  121\n 12321\n1234321");
            break;
+    case 5:(N==5);
+           printf("    1\n   121\n  12321\n 1234321\n123454321");
+           break;
 }
 }
