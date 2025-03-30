@@ -11,8 +11,8 @@ int main(){
         reversedArr[i]=arr[N-i-1];
     }
     if(arr==reversedArr){
-        printf("Yes");
+        printf("YES");
     }else{
-        printf("No");
+        printf("NO");
     }
 }
