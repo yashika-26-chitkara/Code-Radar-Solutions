@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<N;i++){
         reversedArr[i]=arr[N-i-1];
     }
-    int ispalindrome=1;
+    int isPalindrome=1;
     for(int i=0;i<N;i++){
         if(arr[i]!=reversedArr[i]){
          isPalindrome=0;
