@@ -10,7 +10,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<N;i++){
-        printf("%d",sumOfDigits(int num));
+        printf("%d",sumOfDigits(arr[i]));
     }
 }
 int sumOfDigits(int num){
