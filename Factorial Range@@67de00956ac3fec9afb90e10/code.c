@@ -3,7 +3,7 @@ int factorialRange(int num){
     scanf("%d",&start);
     int end;
     scanf("%d",&end);
-    int num=start;
+    int num;
     for(int i=start;i<=end;i++){
         if(start>end || start<0){
             return 0;
