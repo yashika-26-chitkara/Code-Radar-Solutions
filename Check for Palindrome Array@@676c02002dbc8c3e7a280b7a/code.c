@@ -10,7 +10,7 @@ int main(){
     for(int i=N;i>1;i--){
         reversedArr[i]=arr[N-i-1];
     }
-    if(arr[i]==reversedArr[i]){
+    if(arr==reversedArr){
         printf("Yes");
     }else{
         printf("No");
