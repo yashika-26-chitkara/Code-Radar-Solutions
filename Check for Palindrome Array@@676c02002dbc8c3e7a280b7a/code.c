@@ -7,12 +7,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int reversedArr[N];
-    for(int i=0;i<N/2;i++){
+    for(int i=0;i<N;i++){
         reversedArr[i]=arr[N-i-1];
-    }
-    if(arr==reversedArr){
+    }for(int i=0;i<N;i++){
+        if(arr[i]==reversedArr[i]){
         printf("YES");
     }else{
         printf("NO");
     }
+}
 }
