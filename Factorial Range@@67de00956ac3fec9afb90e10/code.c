@@ -1,4 +1,4 @@
-int factorialRange(int start,int end){
+int factorialRange(int num){
     int start;
     scanf("%d",&start);
     int end;
