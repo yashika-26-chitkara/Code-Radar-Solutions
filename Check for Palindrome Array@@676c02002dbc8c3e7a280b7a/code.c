@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    int original=arr;
+    int original=arr[N];
     int reversedArr[N];
     for(int i=N;i>1;i--){
         reversedArr[i];
