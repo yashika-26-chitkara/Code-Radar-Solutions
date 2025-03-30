@@ -14,7 +14,7 @@ int main(){
    
     for(int i=0;i<N;i++){
         if(freq[i]>0){
-            printf("%d %d",i,freq[i]);
+            printf("%d %d\n",i,freq[i]);
         }
     }
     return 0;
