@@ -6,12 +6,11 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    int original=arr[N];
     int reversedArr[N];
     for(int i=N;i>1;i--){
         reversedArr[i]=arr[N-i-1];
     }
-    if(original==reversedArr){
+    if(arr[i]==reversedArr[i]){
         printf("Yes");
     }else{
         printf("No");
