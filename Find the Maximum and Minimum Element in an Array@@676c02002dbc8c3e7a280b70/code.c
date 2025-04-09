@@ -7,6 +7,9 @@ int main(){
         scanf("%d",&arr[i]);
         }
         for(int i=0;i<N;i++){
+        if(arr[i]<0){
+            arr[i]=-arr[i];
+        }
         if(arr[i]>arr[i+1]){
             arr[i+1]=arr[i];
         }
