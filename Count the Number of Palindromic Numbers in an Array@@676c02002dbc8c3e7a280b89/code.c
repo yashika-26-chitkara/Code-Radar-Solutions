@@ -14,11 +14,11 @@ int main(){
         int rev=0;
         rev=rev+rem;
         i=i/10;
-        }
         if(arr[i]==rev){
             count++;
         }else{
             continue;
+        }
         }
     }
     printf("%d",count);
