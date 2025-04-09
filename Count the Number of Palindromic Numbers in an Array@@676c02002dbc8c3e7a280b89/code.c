@@ -16,12 +16,13 @@ int main(){
     }
     int count =0;
     for(int i=0;i<N;i++ ){
-        if(arr[i]==reverse(arr[i])){
-            count++;
-        }
         if(arr[i]<0){
             continue;
         }
+        if(arr[i]==reverse(arr[i])){
+            count++;
+        }
+
     }
    printf("%d",count);
 }
