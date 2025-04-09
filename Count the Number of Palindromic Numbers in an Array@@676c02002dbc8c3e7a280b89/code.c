@@ -14,7 +14,7 @@ int main(){
     }
     int count =0;
     for(int i=0;i<N;i++ ){
-        if(arr[i]==rev[i]){
+        if(arr[i]==reverse[i]){
             count++;
         }else{
             continue;
