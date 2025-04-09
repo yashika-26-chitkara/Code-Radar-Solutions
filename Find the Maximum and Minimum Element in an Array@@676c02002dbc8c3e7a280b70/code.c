@@ -10,6 +10,7 @@ int main(){
         if(arr[i]>arr[i+1]){
             arr[i+1]=arr[i];
         }
+        }
         printf("%d %d",arr[0],arr[N-1]);
-    }
+    
 }
