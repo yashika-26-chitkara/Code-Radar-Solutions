@@ -15,7 +15,7 @@ int main(){
         rev=rev+rem;
         i=i/10;
         }
-        if(i==rev){
+        if(arr[i]==rev){
             count++;
         }else{
             continue;
