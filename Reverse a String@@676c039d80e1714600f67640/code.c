@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
     char str[100];
-    scanf("s",str);
-    printf("%s[]\n",str);
+    scanf("%s",str);
+    printf("%s\n",str);
 }
