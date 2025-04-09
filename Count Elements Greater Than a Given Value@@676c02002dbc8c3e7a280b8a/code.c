@@ -13,6 +13,7 @@ int main(){
         }else{
             continue;
         }
+        printf("%d",count);
     }
-    printf("%d",count);
+   
 }
