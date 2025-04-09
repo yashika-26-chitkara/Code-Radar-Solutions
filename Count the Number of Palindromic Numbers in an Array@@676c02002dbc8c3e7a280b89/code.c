@@ -19,6 +19,9 @@ int main(){
         if(arr[i]==reverse(arr[i])){
             count++;
         }
+        if(arr[i]<0){
+            continue;
+        }
     }
    printf("%d",count);
 }
